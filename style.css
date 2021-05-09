@@ -44,9 +44,13 @@ align-items: center;
 }
 
 .navbar li a {
-    color: white;
+    color: rgb(180, 169, 169);
     text-decoration: none;
     letter-spacing: 2px;
+}
+
+.navbar li a :hover {
+    color: white;
 }
 
 /*..SECTION LEFT..*/
@@ -267,3 +271,5 @@ flex-direction: row;
     text-transform: uppercase;
     letter-spacing: 1.5px;
 }
+
+/* RESPOINSIVE*/
