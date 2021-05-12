@@ -222,7 +222,6 @@ flex-direction: row;
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 
 .icon img {
@@ -288,7 +287,7 @@ flex-direction: row;
         font-size: 15px;
     }
     .navbar li {
-        margin-right: 15px;
+        margin-right: 30px;
     }
     .navbar li a{
         color: aliceblue;
@@ -323,7 +322,7 @@ flex-direction: row;
         display: none;
     }
     .icon-box {
-        align-content: center;
+        justify-content: center;
     }
     .trait {
         width: 500px;
@@ -331,7 +330,6 @@ flex-direction: row;
         background:linear-gradient(to right,#445682,#263556);
         border-radius: 50px;
         margin: 2vh ;
-    
     }
     .left {
         width: 100vw ;
@@ -357,4 +355,15 @@ flex-direction: row;
         width: 100%;
     }
     
+    @media (max-width: 600px) {
+    .navbar li {
+        margin-right: 15px;
+    }
+    .box-up h1 {
+        font-size: 45px;
+    }
+    .icon {
+        margin-bottom: 15px;
+    }
 }
+
