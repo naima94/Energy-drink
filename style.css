@@ -207,7 +207,6 @@ flex-direction: row;
     background:linear-gradient(to right,#445682,#263556);
     border-radius: 50px;
     margin: 45px 0;
-
 }
 
 .icon-box {
@@ -272,4 +271,87 @@ flex-direction: row;
     letter-spacing: 1.5px;
 }
 
-/* RESPOINSIVE*/
+/* Gestion de la RESPOINSIVE*/
+
+@media (max-width: 1330px) {
+
+    
+    .navbar {
+        width: 100vw;
+        height: 8vh;
+        background-color: #b503fc;
+        align-items: center;
+    }
+    .navbar ul {
+        margin: auto;
+        font-size: 15px;
+    }
+    .navbar li {
+        margin-right: 15px;
+    }
+    .navbar li a{
+        color: aliceblue;
+        letter-spacing: 0.8px;
+    }
+    section {
+        width: 100vw;
+        height: 92vh;
+        flex-direction: column-reverse;
+    }
+    .right {
+        width: 100vw;
+        height: 57vh;
+        padding-left: 0px;
+    }
+    .box-up {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-up h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .box-up .btn-box button {
+        width: 150px;
+        height: 40px;
+    }
+    .box-up .btn-box .buy button {
+        width: 150px !important;
+    }
+    .box-down, .bg-right img, .play-btn {
+        display: none;
+    }
+    .icon-box {
+        align-content: center;
+    }
+    .trait {
+        width: 500px;
+        height: 2px;
+        background:linear-gradient(to right,#445682,#263556);
+        border-radius: 50px;
+        margin: 2vh ;
+    
+    }
+    .left {
+        width: 100vw ;
+        height: 35vh;
+        bottom: 0;
+    }
+    .left .bg {
+        background-image: url(img/bg-left-rotate.png);
+        background-position: top;
+        
+    }
+   /* .canette {
+        height: 208px;
+        width: 110px;
+        top: 0;
+        left: 45vw;
+    } */
+    .left .bg img {
+       top: 0;
+       left: 50%;
+      
+    }
+    
+}
