@@ -272,9 +272,9 @@ flex-direction: row;
     letter-spacing: 1.5px;
 }
 
-/* Gestion de la RESPOINSIVE*
+/* Gestion de la RESPOINSIVE*/
 
-@media (max-width: 1330px) {
+@media (max-width: 1200px) {
 
     
     .navbar {
@@ -296,7 +296,7 @@ flex-direction: row;
     }
     section {
         width: 100vw;
-        height: 92vh;
+        height: 100vh;
         flex-direction: column-reverse;
     }
     .right {
@@ -343,11 +343,18 @@ flex-direction: row;
         background-position: top;
         
     }
-    .left .bg img {
-        top: 0;
+    .canette {
+        height: 208px;
+        width: 110px;
         left: 50%;
+        top: 0%;
+        position: relative;
+    }
+    .left .bg img {
+        /*top: 0;
+        left: 50%;*/
         transform: translateX(-50%);
-        width: 50%;
+        width: 100%;
     }
     
 }
